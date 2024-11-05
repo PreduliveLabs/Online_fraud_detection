@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>main_page</title>
+    <link rel="stylesheet" href="static\css.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1>
+          ONLINE FRAUD DETECTION
+      </h1>
+    </div>
+
+    <center><h3>{{msg}}</h3></center>
+    <div class="input-section">
+        <form method="post" action="/file">
+            <label>Enter your data</label><br>
+        <textarea class="hovers" name="text" rows="4" cols="50" placeholder="Enter your data..." ></textarea>
+
+            <br><br>
+
+        <button>submit</button>
+        </form>
+        <br>
+        <p>user text: {{ text }}</p>
+        <h6>Category of fraud is : {{ prediction }}</h6>
+        <h6>SubCategory of fraud is : {{ prediction1 }}</h6>
+
+
+
+    </div>
+
+
+  </body>
+</html>

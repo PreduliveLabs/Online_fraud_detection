@@ -1,0 +1,41 @@
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #333;
+  padding: 20px;
+}
+
+.head h1 {
+  font-size: 24px;
+  color: white;
+}
+
+
+.input-section {
+  text-align: center;
+}
+
+.input-section {
+  display: block;
+  margin: 20px auto;
+}
+
+.input-section h6 {
+  font-size: 16px;
+  color: #333;
+}
+
+.input-section button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.hovers:hover{
+    border: 2px solid orange;
+
+}
